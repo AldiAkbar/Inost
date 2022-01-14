@@ -957,6 +957,8 @@ a.back-to-top {
 
 .testimoni {
   padding: 50px 0 50px 0; }
+.testimoni.tentang-section {
+  padding: 150px 0 0 0; }
   .testimoni .section-title.top {
     display: none; } 
   .testimoni .section-title.side {
@@ -968,10 +970,20 @@ a.back-to-top {
       padding: 5px 0 10px 0; }
     .testimoni .section-title.side .text {
       width: 310px; }
+  .testimoni.tentang-section .credit {
+    margin: 50px 0 20px 0; }
+    .testimoni.tentang-section .credit img {
+      margin-bottom: 20px;}
+    .testimoni.tentang-section .credit span {
+      color: #B71C1C; 
+      font-weight: 500; }
   .testimoni .group-testimoni {
     display: flex;
     justify-content: space-between; }
-  .testimoni .group-testimoni .single-testimoni {
+  .testimoni .group-testimoni.tentang {
+    margin: 0 0 30px 0; }
+  .testimoni .group-testimoni .single-testimoni,
+  .testimoni .group-testimoni.tentang .single-testimoni {
     width: 350px;
     height: 210px;
     border: 1px solid rgba(155, 155, 155, 0.5);
@@ -983,6 +995,8 @@ a.back-to-top {
     -ms-transition:.3s; 
     -o-transition:.3s;
     transition: .3s;  }
+    .testimoni .group-testimoni.tentang .single-testimoni {
+      height: 200px }
     .testimoni .group-testimoni .single-testimoni:hover {
       box-shadow: 0 0 15px rgba(0,0,0,.2); }
       .testimoni .group-testimoni .single-testimoni .fill-testimoni {
@@ -993,12 +1007,15 @@ a.back-to-top {
         .testimoni .group-testimoni .single-testimoni .fill-testimoni .profile {
           margin-top: 20px; }
           .testimoni .group-testimoni .single-testimoni .fill-testimoni .profile img {
-            border-radius: 50%; }
+            border-radius: 50%;
+            margin-bottom: 10px; }
           .testimoni .group-testimoni .single-testimoni .fill-testimoni .profile .profile-name {
             padding: 2px 0 0 10px; }
-          .testimoni .group-testimoni .single-testimoni .fill-testimoni .profile .profile-name h6 {
+          .testimoni .group-testimoni .single-testimoni .fill-testimoni .profile .profile-name h6,
+          .testimoni .group-testimoni .single-testimoni .fill-testimoni .profile-name h5 {
             font-weight: 700; }
-          .testimoni .group-testimoni .single-testimoni .fill-testimoni .profile .profile-name p {
+          .testimoni .group-testimoni .single-testimoni .fill-testimoni .profile .profile-name p,
+          .testimoni .group-testimoni .single-testimoni .fill-testimoni .profile-name p {
             font-weight: 500;
             color: #B71C1C; }
   @media only screen and (min-width: 768px) and (max-width: 1199px) {
